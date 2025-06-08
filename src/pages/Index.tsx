@@ -37,28 +37,28 @@ const Index = () => {
               <Card className="text-center">
                 <CardContent className="pt-6">
                   <FileText className="h-8 w-8 mx-auto mb-2 text-blue-600" />
-                  <div className="text-2xl font-bold">1,247</div>
+                  <div className="text-2xl font-bold">0</div>
                   <div className="text-sm text-muted-foreground">Reports Filed</div>
                 </CardContent>
               </Card>
               <Card className="text-center">
                 <CardContent className="pt-6">
                   <Shield className="h-8 w-8 mx-auto mb-2 text-green-600" />
-                  <div className="text-2xl font-bold">892</div>
+                  <div className="text-2xl font-bold">0</div>
                   <div className="text-sm text-muted-foreground">Cases Resolved</div>
                 </CardContent>
               </Card>
               <Card className="text-center">
                 <CardContent className="pt-6">
                   <AlertTriangle className="h-8 w-8 mx-auto mb-2 text-orange-600" />
-                  <div className="text-2xl font-bold">355</div>
+                  <div className="text-2xl font-bold">0</div>
                   <div className="text-sm text-muted-foreground">Under Investigation</div>
                 </CardContent>
               </Card>
               <Card className="text-center">
                 <CardContent className="pt-6">
                   <Users className="h-8 w-8 mx-auto mb-2 text-purple-600" />
-                  <div className="text-2xl font-bold">15,643</div>
+                  <div className="text-2xl font-bold">0</div>
                   <div className="text-sm text-muted-foreground">Citizens Helped</div>
                 </CardContent>
               </Card>
