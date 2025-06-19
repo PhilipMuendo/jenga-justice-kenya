@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+# Jenga Justice Kenya: Police Brutality Reporting Platform
 
-## Project info
+## About This Project
 
-**URL**: https://lovable.dev/projects/0f6ffe23-0878-414d-81d3-ef42c3d19133
+Jenga Justice Kenya is a platform designed to help citizens safely and anonymously report incidents of police misconduct and brutality in Kenya. The system allows users to track reported cases, access legal resources, and get support. 
 
-## How can I edit this code?
+**Why was this system built?**
 
-There are several ways of editing your application.
+I built this system due to recent police brutality incidents in Kenya, aiming to empower citizens, promote accountability, and provide access to justice and support for victims.
 
-**Use Lovable**
+## Features
+- Anonymous incident reporting
+- Case tracking
+- Access to legal aid and resources
+- Emergency contacts
+- Resource center for support and information
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0f6ffe23-0878-414d-81d3-ef42c3d19133) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
+## Technologies Used
 - Vite
 - TypeScript
 - React
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## How to Run the Project
 
-Simply open [Lovable](https://lovable.dev/projects/0f6ffe23-0878-414d-81d3-ef42c3d19133) and click on Share -> Publish.
+### Prerequisites
+- Node.js & npm (recommended to use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
 
-## Can I connect a custom domain to my Lovable project?
+### Steps
 
-Yes, you can!
+```sh
+# 1. Clone the repository
+ git clone <YOUR_GIT_URL>
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# 2. Navigate to the project directory
+ cd jenga-justice-kenya
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# 3. Install dependencies
+ npm install
+
+# 4. Start the development server
+ npm run dev
+```
+
+The app will be available at `http://localhost:8080` by default.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](LICENSE)
